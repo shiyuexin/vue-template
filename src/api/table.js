@@ -1,9 +1,9 @@
 import request from '@/utils/request'
 
-export function getList(params) {
-  return request({
-    url: '/vue-admin-template/table/list',
-    method: 'get',
-    params
-  })
+export function getList(query) {
+    return request({
+        url: '/api/external/base/v1/home/getrobots',
+        method: 'get',
+        params: query
+    })
 }

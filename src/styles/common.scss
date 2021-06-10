@@ -1,0 +1,42 @@
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-l-10 {
+    margin-left: 10px;
+}
+
+.m-r-10 {
+    margin-right: 10px;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left
+}
+
+.text-a-r {
+    text-align: right;
+}
+
+// table -> search-card
+.search-card {
+    margin-bottom: 10px;
+    .el-input {
+        width: 260px;
+    }
+    .el-form-item--mini.el-form-item {
+        margin-bottom: 0;
+    }
+}
+
+.table-pagination {
+    margin: 15px 0;
+}
