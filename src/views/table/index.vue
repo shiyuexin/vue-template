@@ -14,7 +14,7 @@
           </el-form>
         </el-col>
         <el-col :span="12" class="text-a-r">
-          <el-button icon="el-icon-search">搜索</el-button>
+          <el-button icon="el-icon-search">搜索呗</el-button>
           <el-button type="primary" icon="el-icon-refresh-right" @click="resetSearch('searchForm')">重置</el-button>
         </el-col>
       </el-row>
